@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  stdout.write("Input length Fizz Buzz : ");
+  stdout.write("Masukan range yang diinginkan : ");
   int x = int.parse(stdin.readLineSync().toString());
 
   for (var i = 1; i <= x; i++) {
